@@ -1,18 +1,14 @@
-.App {
-  text-align: center;
-}
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+ /* background-color: #0784a7;*/
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 115, 0);
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,6 +23,55 @@
 .App-link {
   color: #61dafb;
 }
+.blog {
+  margin-top: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+ 
+  padding: 5%;
+ 
+  margin-bottom: 5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.blog:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.title{
+  text-align: center;
+  background-color:rgb(255, 115, 0);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5%;
+  color: rgb(255, 255, 255);
+  
+}
+a:link{
+  text-decoration: none;
+}
+h5{
+  color:rgb(255, 115, 0);
+}
+h1{
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+input {
+  width : 10%;
+  margin-right: 80%;
+  margin-bottom: 2%;
+  height: 30px;
+ 
+  
+}
+textarea {
+  width : 40%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  height: 200px;
+  
+}
+
 
 @keyframes App-logo-spin {
   from {
